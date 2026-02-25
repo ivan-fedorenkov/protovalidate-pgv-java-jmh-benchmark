@@ -63,17 +63,6 @@ Both schemas use only validation rules that are supported by *both* libraries to
 
 ---
 
-## Benchmark Methodology
-
-- Pre-generated valid message instances
-- Separate benchmarks for:
-    - Valid messages
-    - Invalid messages
-- Warmup and measurement iterations configured via JMH defaults
-- Throughput and average time modes
-
----
-
 ## Results
 
 ```
